@@ -1,0 +1,262 @@
+body{
+    background-color: skyblue;
+    margin-bottom: 100px;
+}
+.heading{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+} 
+.logo img{
+    height: 9vh;
+    width: 8vw;
+}
+*{
+    margin: 0;
+}
+.box2{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    
+}
+.first{
+    color: #cccccc;
+    font: size 14px;
+    margin-left: 15px;
+}
+.second{
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.search{
+    display: flex;
+    width:600px ;
+    height: 40px;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-bar
+{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+/* span{
+    color: #cccccc;
+    font-size: 0.90rem;
+} */
+.account{
+    color: white;
+    font-size: 1rem;
+    
+}
+/* 2nd heading */
+.seacond-heading{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.seacond_heading>ul{
+    background-color: #b2b7bd;
+}
+.seacond_heading>ul>li{
+    color: white;
+    display:inline;
+    width: 90%;
+    margin-left: 15px;
+}
+.cart{
+    color: white;
+}
+.order{
+    color: rgb(241, 221, 221);
+}
+/* }
+.crouse>img{
+    height: 70vh;
+    width: 100vw;
+} */
+.main-box{
+    display: flex;
+    background-color:lightblue;
+    padding-bottom: 49px;
+}
+.outer-box{
+    width: 21.5vw;
+    height: 48vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 9px;
+    margin-left: 40px;
+    background-color: #ffffff;
+}
+.img1{
+    width: 19vw;
+    height: 29vh;
+    margin-left: 17px;
+    margin-right: 16px;
+    margin-top: 25px;
+}
+.text1{
+    margin-left: 17px;
+    margin-top: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text11{
+    margin-left: 17px;
+    margin-top: 11px;
+    font-size: 19px;
+}
+.outer-box2{
+    width: 25vw;
+    height: 48vh;
+    margin-left: 38px;
+    margin-top: 30px;
+    border: 3px solid black;
+}
+.img2{
+    width: 19vw;
+    height: 29vh;
+    margin-left: 17px;
+    margin-right: 16px;
+   
+}
+.main-box2{
+    
+    background-color: lightblue;
+    /* margin-top:-30px; */
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw;
+}
+.outer-box3{
+    width: 21vw;
+    height: 56vh;
+    /* margin-left: 38px;
+    margin-top: 30px; */
+    background-color: #ffffff;
+    /* padding-top: 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.inner_prod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img3{
+    width: 8vw;
+    height: 16vh;
+    /* margin-left: 12px;
+    margin-right: 9px;
+    margin-top: 32px; */
+}
+.text1{
+    font-size: 12px;
+}
+.img4{
+    height: 16vh;
+    width: 8vw;
+    /* margin-left: 18px; */
+}
+.img5{
+    height:16vh ;
+    width: 9vw;
+    /* margin-left:11px ;
+    margin-top:62px ;*/
+} 
+.img6{
+    height:16vh ;
+    width:8vw ;
+    /* margin-left:11px ;
+    margin-right:9px ;
+    margin-top: 40px; */
+}
+footer{
+    margin-top: 15px;
+}
+.foot_mainBox{
+    display: flex;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    /* height: 50px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.footer1{
+display: flex;
+justify-content: space-around;
+padding-inline: 10%;
+background-color: #222f3d;
+color: white;
+margin-bottom: 10px;
+padding: 10px;
+}
+.footer1 div{
+    margin-bottom: 30px;
+}
+.footer1 p{
+    font-weight: bold;
+}
+
+.carousel-inner{
+    background-size: cover;
+    height: 40vh;
+    width: 50vw;
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color: antiquewhite;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(rgb(165, 153, 153), rgb(20, 19, 18), rgb(28, 28, 50), alpha);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.warddropdawn{
+    position: relative;
+    display:inline-block
+}
+.warddropdawn>p{
+    color: hsl(0, 20%, 95%);
+}
+.warddropdawn:hover .dropdown-content{
+    display: block;
+    width: 85vw;
+    height:80vh ;
+    display: flex;
+}
+.list{
+    margin-top: 80px;
+    margin-left: 25px;
+}
+.dropdown-content>h6{
+    text-decoration: none;
+    color: black;
+}
